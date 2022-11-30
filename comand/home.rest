@@ -1,0 +1,5 @@
+@host = localhost:8080
+// вход на домашнюю страницу
+GET http://{{host}}/api/home/myhome HTTP/1.1
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QyIiwiZW1haWwiOiJ0ZXN0MiIsImV4cCI6MTY2OTg5NjQ0MH0.exh0tJj0pQ5VEM3Dh6BhMsF3aAFFJv1UhBnLYEdOYYY

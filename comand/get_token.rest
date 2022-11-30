@@ -1,0 +1,9 @@
+@host = localhost:8080
+// создание токена
+POST http://{{host}}/api/token HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "sergeisavilov4@gmail.com",
+    "password": "1234"
+}
